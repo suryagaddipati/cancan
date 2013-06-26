@@ -1,0 +1,109 @@
+TAP version 13
+ok 1 - Server Order Controller test Fetch Order calls groupon API fetch
+ok 2 - Server Order Controller test Fetch Order calls groupon API fetch with appropriate params
+ok 3 - Server Order Controller test Show Order calls groupon API show
+ok 4 - Server Order Controller test Show Order calls groupon API show with appropriate params
+ok 5 - Server Error Handling returns zero orders and no error if groupon API returns an error in ordersFetch method
+ok 6 - Server Error Handling returns no err nor response if groupon API orders show returns an error in show method
+ok 7 - Server PDF Download Handler test API calls Calls fetch method grouponApi - voucher_pdf endpoint
+ok 8 - Server PDF Download Handler test API calls Calls fetch method grouponApi - voucher_pdf endpoint with proper params
+ok 9 - Server PDF Download Handler test Error Handling returns error if grouponApi returns an error in voucher_pdf fetch method
+ok 10 - Server Support Controller Test renders page when user is logged in
+ok 11 - Server Support Controller Test redirects to PWA login page with appropriate query params
+ok 12 - Server Ticket Controller Test API calls Calls create method grouponApi - zendesk endpoint
+ok 13 - Server Ticket Controller Test API calls Calls create method grouponApi - zendesk endpoint with proper params
+ok 14 - Server Ticket Controller Test Error Handling returns error if grouponApi returns an error in zendesk create method
+ok 15 - Server User Controller Test Calls the getAccessToken with cookie
+ok 16 - Server User Controller Test Sets User Info into session
+ok 17 - Server User Controller Test Calls the getUser API with certain params
+ok 18 - Server User Controller Test Sets a proper guid as session id
+ok 19 - Server Error handling returns an error if getAcessToken API returns an error
+ok 20 - Server Error handling returns an error if users fetch API returns an error
+
+# Launching PhantomJS
+# ..............................................................................
+ok 21 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for goods shipping deal returns goods shipping presenter
+ok 22 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for goods voucher deal returns goods voucher presenter
+ok 23 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for getaways deal returns getaways presenter
+ok 24 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for getaways voucher deal returns getaways voucher presenter
+ok 25 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for live deal returns live presenter
+ok 26 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for gpass deal returns Gpass presenter
+ok 27 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for local deal type returns local presenter
+ok 28 - PhantomJS Groupon.BackboneApp.Presentation.Support.PresenterFactory for now deal returns now presenter
+ok 29 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step one renders not order related button
+ok 30 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step one renders continue with this order button
+ok 31 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step two contains issue check div
+ok 32 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step two contains direct-ticket div
+ok 33 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step two renders problem solved button
+ok 34 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step two renders button to move to step three
+ok 35 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step three contains back button
+ok 36 - PhantomJS Groupon.BackboneApp.Views.Support.StepActions actions for step three contains submit button
+ok 37 - PhantomJS Groupon.BackboneApp.Views.Support.ProblemSolved problem solved template exists
+ok 38 - PhantomJS Groupon.BackboneApp.Views.Support.ProblemSolved step actions exists for problem solved view contact us link exists
+ok 39 - PhantomJS Groupon.BackboneApp.Views.Support.CancelReservationsServiceAction service action template exists
+ok 40 - PhantomJS Groupon.BackboneApp.Views.Support.CancelReservationsServiceAction service action name is cancel reservation
+ok 41 - PhantomJS Groupon.BackboneApp.Views.Support.CancelOrderServiceAction service action template exists
+ok 42 - PhantomJS Groupon.BackboneApp.Views.Support.CancelOrderServiceAction renders service action name
+ok 43 - PhantomJS Groupon.BackboneApp.Views.Support.ViewVoucherServiceAction service action template exists
+ok 44 - PhantomJS Groupon.BackboneApp.Views.Support.ViewVoucherServiceAction when there is only one groupon service action is view voucher
+ok 45 - PhantomJS Groupon.BackboneApp.Views.Support.ViewVoucherServiceAction when there are multiple groupons service action is view voucher(s)
+ok 46 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When there are two steps and user is in step one progress bar loads till step one
+ok 47 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When there are two steps and user is in step two progress bar loads till step two
+ok 48 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When there are three steps and user is in step one progress bar loads till step one
+ok 49 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When there are three steps and user is in step two progress bar loads till step two
+ok 50 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When there are three steps and user is in step three progress bar loads till step three
+ok 51 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar When maxindex is not defined returns empty view
+ok 52 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar when max index is null returns empty view
+ok 53 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar when currentView id is not defined returns empty view
+ok 54 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar when currentView id is null returns empty view
+ok 55 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar when both currentview id and maxindex are undefined returns empty view
+ok 56 - PhantomJS Groupon.BackboneApp.Views.Support.ProgressBar when both currentView id and maxindex are null returns empty view
+ok 57 - PhantomJS Groupon.BackboneApp.Views.Support.StepOne render view renders progress bar, order menu, current order and service actions
+ok 58 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order view renders a progress bar
+ok 59 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order renders the order information when there is an order
+ok 60 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order renders the merchant name as a link when rendering Order Info
+ok 61 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order constructs the tagLine for the order
+ok 62 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushOrderStateMiscellaneous adds redeemed to the tagline when the first groupon is redeemed
+ok 63 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushOrderStateMiscellaneous adds unredeemed to the tagLine when the first groupon is not redeemed
+ok 64 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushOrderStateMiscellaneous add redeemed when even customerRedeemedAt is set to true
+ok 65 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushEditable returns the proper editable tag when the order is editable it returns editable
+ok 66 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushEditable returns the proper editable tag when the order is not editable it returns not editable
+ok 67 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns local when the channel is now
+ok 68 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns live when the deal channel is live
+ok 69 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns gpass when the deal channel is live and is ticketed
+ok 70 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns goods_shipping when deal is a drops shipped deal
+ok 71 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns goods_voucher when deal is goods voucher
+ok 72 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns getaways_voucher when deal is getaways_voucher
+ok 73 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns getaways when deal is getaways
+ok 74 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getDealTypeTag returns the proper channel tag returns local when deal channel is local
+ok 75 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushOrderState returns the proper state returns available when state is redeemed
+ok 76 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushOrderState returns the proper state returns STATE.toLowerCase for all other states than redeemed
+ok 77 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushDealMiscellaneous returns the proper tag when deal is gpass and seating is not yet available
+ok 78 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushDealMiscellaneous returns the proper tag when deal is gpass and seating is available
+ok 79 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushDealMiscellaneous returns the proper tag when deal is a goods returnable deal
+ok 80 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushDealMiscellaneous returns the proper tag when deal is a goods not returnable deal
+ok 81 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order pushDealMiscellaneous returns the proper tag when deal is a goods and returnable and tracking available
+ok 82 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getCategoryList returns the correct set of categories where there is an order returns the correct set of categories when the deal is goods_shipping
+ok 83 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getCategoryList returns the correct set of categories where there is an order returns the correct set of categories when the deal is getaways
+ok 84 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getCategoryList returns the correct set of categories when there is no order returns the correct set of categories when the user selects his question is not about order
+ok 85 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getCategoryList returns the correct set of categories when there is no order returns the correct set of categories when the user is unable to find his order
+ok 86 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getSubCategoryList returns the correct set of subCategories when there is an order and category is Using a Groupon
+ok 87 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getSubCategoryList returns the correct set of subCategories when there is an order and category is Editing or cancelling an order
+ok 88 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getSubCategoryList returns the correct set of subCategories when there is no order and category is a problem making a purchase
+ok 89 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order getSubCategoryList returns the correct set of subCategories when the user is unable to find an order and category is Promotions and referals
+ok 90 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order renderStepTwoActions renders the back button when there is an order
+ok 91 - PhantomJS Groupon.BackboneApp.Views.Support.StepTwo when the user has selected an order renderStepTwoActions renders does not render the back button when there is no order
+ok 92 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree template exists
+ok 93 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree will contain two text fields for username and email if a non-logged in user access it
+ok 94 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree validation occurs before submitting ticket.
+ok 95 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree validation of username
+ok 96 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree validation of email - returns true for a proper email
+ok 97 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree validation of email - returns false for an incorrect email
+ok 98 - PhantomJS Groupon.BackboneApp.Views.Support.StepThree render function renders progress bar and step actions
+
+
+1..98
+# tests 98
+# pass  98
+
+# ok
