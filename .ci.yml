@@ -1,3 +1,4 @@
 plugins: 
+  - checkstyle
   - test_output: 
       format: tap
