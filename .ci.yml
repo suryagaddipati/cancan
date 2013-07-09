@@ -1,4 +1,5 @@
 plugins: 
+  - findbugs
   - checkstyle
   - test_output: 
       format: tap
