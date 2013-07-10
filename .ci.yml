@@ -1,5 +1,7 @@
 environment: 
  language_versions: 1.9.3_p392
+build:
+ build_run: echo success
 plugins: 
   - cobertura
   - findbugs
