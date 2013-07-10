@@ -1,4 +1,5 @@
 plugins: 
+  - cobertura
   - findbugs
   - checkstyle
   - test_output: 
