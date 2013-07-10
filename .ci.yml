@@ -1,4 +1,4 @@
-enviroment: 
+environment: 
  language_versions: 1.9.3_p392
 plugins: 
   - cobertura
