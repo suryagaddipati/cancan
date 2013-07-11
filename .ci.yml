@@ -1,10 +1,6 @@
 environment: 
  language_versions: 1.9.3_p392
 build:
- run: echo success
-plugins: 
-  - cobertura
-  - findbugs
-  - checkstyle
-  - test_output: 
-      format: tap
+ run: 
+  cucumber : echo hello
+  rspec : echo world
