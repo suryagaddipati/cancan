@@ -5,4 +5,4 @@ build:
   cucumber : echo hello
   rspec : echo world
 plugins:
- - artifacts: hello.sox
+ artifacts: hello.sox
