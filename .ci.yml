@@ -2,7 +2,7 @@ environment:
  language_versions: 1.9.3_p392
 build:
  run: 
-  cucumber : echo hello
-  rspec : echo world
+  cucumber : echo $SHA
+  rspec : echo $GIT_URL
 plugins:
- - artifacts: hello.sox
+ - artifacts: test-output.tap 
