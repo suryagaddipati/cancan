@@ -7,4 +7,4 @@ script:
   -  jasmine: echo jasmine
 
 branches: #skip branches with the word 'skip_ci'
-- "!/.*master.*/"
+- hello 
