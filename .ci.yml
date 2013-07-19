@@ -1,8 +1,7 @@
-environment: 
- language_versions: 1.9.3_p392
-build:
- run: 
-  cucumber : echo $SHA
-  rspec : echo $GIT_URL
-plugins:
- - artifacts: test-output.tap 
+language: ruby
+ruby_version:
+  - "ruby-1.9.3-p194"
+script: 
+  -  cucumber: echo cuckes
+  -  rspec: echo rspce
+  -  jasmine: echo jasmine
