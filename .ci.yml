@@ -6,3 +6,5 @@ script:
   -  rspec: echo rspce
   -  jasmine: echo jasmine
 
+branches: #skip branches with the word 'skip_ci'
+- hello 
