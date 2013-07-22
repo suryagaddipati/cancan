@@ -2,7 +2,7 @@ language: ruby
 ruby_version:
   - "ruby-1.9.3-p194"
 script: 
-  -  cucumber: echo cuckes
-  -  rspec: echo rspce
-  -  jasmine: echo jasmine
+  -  cucumber: sleep 100
+  -  rspec: sleep 200 
+  -  jasmine: sleep 200 
 
