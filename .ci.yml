@@ -1,2 +1,2 @@
-language: nodejs
-script: make test
+language: ruby
+script: sleep 1009
