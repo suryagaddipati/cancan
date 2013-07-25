@@ -1,2 +1,4 @@
 language: ruby
-script: sleep 1009
+script: touch x.txt
+output_files: 'x.txt'
+
