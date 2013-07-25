@@ -1,6 +1,2 @@
-language: clojure
-script: 
-  -  cucumber: sleep 1
-  -  rspec: sleep 1 
-  -  jasmine: sleep 2 
-
+language: nodejs
+script: make test
