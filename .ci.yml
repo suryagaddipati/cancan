@@ -1,4 +1,4 @@
 language: ruby
-script: sleep 1000 
+script: echo $BUNDLE_PATH  ; sleep 10 
 output_files: 'x.txt'
 
