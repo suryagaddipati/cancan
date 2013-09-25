@@ -1,0 +1,6 @@
+    echo 'shell line 1'
+    echo -en 'jenkins_fold:head:section-title\r'
+    echo 'shell line 2'
+    echo 'shell line 3'
+    echo -en 'jenkins_fold:tail:section-title\r'
+    echo 'shell line 4'
