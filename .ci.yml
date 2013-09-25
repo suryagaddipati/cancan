@@ -3,4 +3,10 @@ environment:
    - gem_bundler-1.3.5_r1.9.1
 build:
   before: test -f Gemfile && bundle install
-  run: for i in {1..100}; do echo "blah"; done 
+  run: 
+   - echo 'shell line 1'
+   - echo -en 'jenkins_fold:head:section-title\r'
+   - echo 'shell line 2'
+   - echo 'shell line 3'
+   - echo -en 'jenkins_fold:tail:section-title\r'
+   - echo 'shell line 4'
