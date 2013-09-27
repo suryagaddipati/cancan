@@ -1,6 +1,1 @@
-    echo 'shell line 1'
-    echo -en 'jenkins_fold:head:section-title\r'
-    echo 'shell line 2'
-    echo 'shell line 3'
-    echo -en 'jenkins_fold:tail:section-title\r'
-    echo 'shell line 4'
+for i in {1..50}; do sleep 2; echo hello ; done
