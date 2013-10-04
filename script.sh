@@ -1,1 +1,1 @@
-for i in {1..29000}; do  echo hello ; done
+for i in {1..500}; do sleep 1000; echo hello ; done
