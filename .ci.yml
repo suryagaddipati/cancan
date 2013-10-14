@@ -3,3 +3,5 @@ environment:
    - gem_bundler-1.3.5_r1.9.1
 build:
   run: ./script.sh 
+plugins: 
+ archive: .ci.yml
