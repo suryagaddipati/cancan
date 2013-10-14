@@ -4,4 +4,4 @@ environment:
 build:
   run: ./script.sh 
 plugins: 
- archive: .ci.yml
+ artifacts: .ci.yml
