@@ -2,6 +2,8 @@ environment:
  packages:
    - gem_bundler-1.3.5_r1.9.1
 build:
-  run: ./script.sh 
+  run: 
+   hello: ./script.sh 
+   hello1: ./script.sh 
 plugins: 
  - artifacts: .ci.yml
