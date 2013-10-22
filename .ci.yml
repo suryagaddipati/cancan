@@ -2,6 +2,6 @@ environment:
  packages:
    - gem_bundler-1.3.5_r1.9.1
 build:
-   run: ./script.sh 
+   run: exit 2443 
 plugins: 
  - artifacts: .ci.yml
