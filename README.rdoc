@@ -120,3 +120,4 @@ To get the specs running you should call +bundle+ and then +rake+. See the {spec
 CanCan was inspired by declarative_authorization[https://github.com/stffn/declarative_authorization/] and aegis[https://github.com/makandra/aegis]. Also many thanks to the CanCan contributors[https://github.com/ryanb/cancan/contributors]. See the CHANGELOG[https://github.com/ryanb/cancan/blob/master/CHANGELOG.rdoc] for the full list.
 afa
 afa
+adsf
