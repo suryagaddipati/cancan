@@ -3,5 +3,6 @@ environment:
    - gem_bundler-1.3.5_r1.9.1
 build:
    run: sleep 10000 
+blah: asdfasf
 plugins: 
  - artifacts: .ci.yml
