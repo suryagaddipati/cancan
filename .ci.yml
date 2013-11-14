@@ -6,5 +6,4 @@ build:
 plugins: 
  - artifacts: .ci.yml
 notifications: 
-  master: 
-   - email: blah
+  - hipchat: 332323 
