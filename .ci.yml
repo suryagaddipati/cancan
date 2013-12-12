@@ -1,9 +1,4 @@
-environment:
- packages:
-   - gem_bundler-1.3.5_r1.9.1
 build:
-   run: exit 1 
-plugins: 
- - artifacts: .ci.yml
-notifications: 
-  - hipchat: 332323 
+   run:
+    one: echo 1
+    two: echo 2
