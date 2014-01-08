@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo  "[1mhello world"  
+echo -e "\033[31mRed\033[0m"
