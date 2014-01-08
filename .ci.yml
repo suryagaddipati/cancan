@@ -1,2 +1,2 @@
 build:
-   run: echo -e "\e[31m meow \e[43m"
+   run: ./script.sh 
