@@ -1,4 +1,2 @@
 build:
-   run:
-    one: echo 1
-    two: echo 2
+   run: echo -e "\e[31m meow \e[43m"
