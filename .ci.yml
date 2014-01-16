@@ -1,2 +1,4 @@
 build:
-   run: ./script.sh 
+   run: 
+     one: echo one
+     two: echo two
