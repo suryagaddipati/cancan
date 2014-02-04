@@ -1,4 +1,4 @@
+environment: 
+  docker: true
 build:
-   run: 
-     one: echo one
-     two: echo two
+ run:  echo one
