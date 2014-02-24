@@ -1,4 +1,2 @@
 build:
- run:
-   one: echo one
-   two: echo blah
+ run: echo meow
