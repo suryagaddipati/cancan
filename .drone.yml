@@ -1,0 +1,9 @@
+image: bradrydzewski/ruby:2.0.0  
+script:
+  - echo meow
+services:
+  - redis
+notify:
+  email:
+    recipients:
+      - sgaddipati@groupon.com 
