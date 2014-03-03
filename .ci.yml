@@ -1,2 +1,5 @@
+environment: 
+  packages:
+    - meow.1.23
 build:
  run: echo meow
