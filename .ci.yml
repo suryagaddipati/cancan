@@ -1,5 +1,5 @@
 environment: 
-  packages:
+  services:
     - meow.1.23
 build:
  run: echo meow
