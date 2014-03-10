@@ -1,4 +1,4 @@
 environment: 
-  image: blah
+  image: bradrydzewski/base
 build:
  run: echo meow
