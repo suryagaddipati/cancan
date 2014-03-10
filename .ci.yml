@@ -1,5 +1,2 @@
-environment: 
-  services:
-    - repository1.snc1:5000/surya/mongodb 
 build:
  run: echo meow
