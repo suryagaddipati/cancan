@@ -1,6 +1,6 @@
 environment: 
   image: suryagaddipati/ruby-1.9.3
-  services: bradrydzewski/mysql
+  services: bradrydzewski/mysql:5.5
     
 build:
  run: 
