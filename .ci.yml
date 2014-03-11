@@ -1,4 +1,4 @@
 environment: 
-  image: centos:6.4  
+  image: bradrydzewski/ruby_1.9.3 
 build:
  run: echo meow
