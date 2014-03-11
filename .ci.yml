@@ -1,4 +1,4 @@
 environment: 
-  image: bradrydzewski/ruby_1.9.3 
+  image: suryagaddipati/ruby-1.9.3
 build:
  run: echo meow
