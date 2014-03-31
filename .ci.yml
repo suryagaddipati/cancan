@@ -1,12 +1,7 @@
 environment: 
-  image: suryagaddipati/ruby-1.9.3
   services: bradrydzewski/mysql:5.5
     
 build:
  run: 
-  meow1:
-   - echo meow1
-   - env 
-  meow2:
    - echo meow2
    - env 
