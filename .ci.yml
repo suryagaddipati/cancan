@@ -3,5 +3,9 @@ environment:
     
 build:
  run: 
-   - echo meow2
-   - env 
+  one:
+    - echo meow2
+    - env 
+  two:
+    - echo meow2
+    - env 
