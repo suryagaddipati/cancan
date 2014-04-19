@@ -9,3 +9,4 @@ build:
   two:
     - echo meow2
     - env 
+ after: meow   
