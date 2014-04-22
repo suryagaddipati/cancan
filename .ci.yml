@@ -1,4 +1,4 @@
 build:
  run: echo meow   
 notifications:
-   hipchat: Release Engineering
+ - hipchat: Release Engineering
