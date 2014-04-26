@@ -1,4 +1,4 @@
 build:
  run: 
-  meow: sleep 10
-  meow1: fail 
+  meow1: sleep 10
+  meow2: sleep 10 
