@@ -1,4 +1,4 @@
 build:
  run: 
-  meow1: sleep 10
-  meow2: sleep 10 
+  meow1: echo meow 
+  meow2: echo $PATH
