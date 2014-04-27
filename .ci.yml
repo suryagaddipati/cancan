@@ -1,4 +1,2 @@
 build:
- run: 
-  meow1: echo meow 
-  meow2: echo $PATH
+ run: echo $PATH
