@@ -4,4 +4,6 @@ environment:
 build:
   run: echo meow
 plugins: 
- - shell_script: echo meow
+ - shell_script:
+    -  echo purr
+    -  echo meow2
