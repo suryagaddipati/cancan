@@ -2,9 +2,6 @@ environment:
   language: ruby
 
 build:
-  run: 
-    meow1: echo meow1 > meow1.txt
-    meow2: echo meow2 > meow2.txt
-  after: echo meow3 > meow3.txt
+  run: echo meow
 plugins: 
-  - artifacts: meow1.txt, meow2.txt, meow3.txt
+ - shell_script: echo meow
