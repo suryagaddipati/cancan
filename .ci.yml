@@ -8,5 +8,3 @@ build:
      - echo purr
     meow2: 
       - echo meow2
-plugins:
-  - meow
