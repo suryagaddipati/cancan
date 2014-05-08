@@ -5,3 +5,5 @@ build:
   run: 
     - echo meow
     - echo purr
+plugins:
+  - meow
