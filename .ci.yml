@@ -2,8 +2,6 @@ environment:
   language: ruby
 
 build:
-  run: echo meow
-plugins: 
- - shell_script:
-    -  echo purr
-    -  echo meow2
+  run: 
+    - echo meow
+    - echo purr
