@@ -3,7 +3,10 @@ environment:
 
 build:
   run: 
-    - echo meow
-    - echo purr
+    meow1:
+     - echo meow
+     - echo purr
+    meow2: 
+      - echo meow2
 plugins:
   - meow
