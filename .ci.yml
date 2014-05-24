@@ -1,5 +1,6 @@
 environment:
   language: ruby
+  image: dockerfile/ruby
 
 build:
   run: echo meow
