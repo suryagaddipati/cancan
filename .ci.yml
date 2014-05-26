@@ -1,4 +1,3 @@
-#not enough
 environment:
   language: ruby
   image: dockerfile/ruby
