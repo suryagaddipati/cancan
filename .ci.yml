@@ -2,6 +2,3 @@ environment:
   language: ruby
 build:
   run: echo meow
-plugins: 
-  - docker_publish: 
-      echo: meow
