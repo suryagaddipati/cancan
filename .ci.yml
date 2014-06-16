@@ -1,5 +1,6 @@
 environment:
   language: ruby
   image: dockerfile/ruby
+  services: google/mysql
 build:
   run: echo meow1
