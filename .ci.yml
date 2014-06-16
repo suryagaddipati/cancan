@@ -1,5 +1,5 @@
 environment:
   language: ruby
-  image: dockerfiles/ruby
+  image: dockerfile/ruby
 build:
   run: echo meow1
