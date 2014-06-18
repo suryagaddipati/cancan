@@ -1,9 +1,13 @@
-image: bradrydzewski/ruby:2.0.0  
+image: ruby2.0.0
 script:
-  - echo meow
+  - cp config/database.drone.yml config/database.yml
+  - bundle install
+  - psql -c 'create database test;' -U postgres -h 127.0.0.1
+  - bundle exec rake db:schema:load
+  - bundle exec rspec spec
 services:
-  - redis
+  - postgres
 notify:
   email:
     recipients:
-      - sgaddipati@groupon.com 
+      - email@example.com
