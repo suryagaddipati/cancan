@@ -1,6 +1,5 @@
 environment:
   language: ruby
 build:
-  run: 
-    meow1: sleep 100
-    meow2: sleep 100
+  run: echo meow
+   
